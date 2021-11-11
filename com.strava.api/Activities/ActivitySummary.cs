@@ -333,5 +333,8 @@ namespace com.strava.api.Segments
         /// </summary>
         [JsonProperty("athlete")]
         public AthleteMeta Athlete { get; set; }
+        
+        [JsonProperty("suffer_score")]
+        public float SufferScore { get; set; }
     }
 }
